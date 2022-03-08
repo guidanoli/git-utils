@@ -27,4 +27,6 @@ Removes all branches listed by `git-ls-old-branches`.
 
 It's easier to find files in your git repository that way. It ignores what's on `.gitignore` too.
 
-**Suggested usage:** `git-fzf | xargs -r vi` opens the file in vi.
+### Fuzzy-find file and open on vi (`git-fzf-vi`)
+
+Open file selected by fuzzy-find in vi.
