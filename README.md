@@ -4,6 +4,7 @@
 
 1. Clone this repository anywhere
 2. Add `bin/` to your `PATH` environment variable
+3. Now you can use commands with `git`, like `git fzf`
 
 ## Scripts
 
