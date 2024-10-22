@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 set -euo pipefail
-git status --ignored | awk '/^Ignored/ { r=NR+1 } (NF && r!=0 && NR>r) { print $1 }'
+git status --ignored --short | sed -n '/^!! / s/^!! // p'
