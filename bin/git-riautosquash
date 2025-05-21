@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+[ $# -ge 1 ] || (>&2 echo "Missing argument: <upstream>" && exit 1)
+git rebase -i "$1" --autosquash
